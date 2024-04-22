@@ -22,7 +22,7 @@ Parameters:
 
   ProviderRepo:
     Type: String
-    Default: my_repo
+    Default: stattest
     Description: This Parameter is going to be used to get the source from github and also as the endpoint from API.
 
   ProviderBranch:
@@ -44,12 +44,12 @@ Parameters:
   
   DockerfileNameCpu:
     Type: String
-    Default: Dockerfile_cpu
+    Default: Dockerfile
     Description: We need to set Default the same name of Dockerfile that is on the github repository
 
   AppName:
     Type: String
-    Default: my_app
+    Default: stattest
     Description: This parameter is going to be used on pipeline name, ECR and the image name as well.
 
   SecretProviderArn:
